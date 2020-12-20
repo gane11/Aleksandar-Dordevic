@@ -2388,7 +2388,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			ul.feature-icons li:before {
+			/* ul.feature-icons li:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -2399,20 +2399,19 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
-			}
+			} */
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
-				height: 2.5em;
+				height: 10em;
 				left: 0;
-				line-height: 2.5em;
+				line-height: 10em;
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: 2.5em;
+				width: 10em;
 			}
 
 /* Icons */
