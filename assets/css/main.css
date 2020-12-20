@@ -2388,7 +2388,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			/* ul.feature-icons li:before {
+			ul.feature-icons li:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -2401,7 +2401,7 @@ input, select, textarea {
 				font-weight: 400;
 			}
 
-			ul.feature-icons li:before {
+			/* ul.feature-icons li:before {
 				background: #4acaa8;
 				border-radius: 100%;
 				color: #ffffff;
