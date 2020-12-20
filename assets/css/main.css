@@ -2399,6 +2399,8 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
+				border-radius: 100%;
+				position: absolute;
 			}
 
 			/* ul.feature-icons li:before {
