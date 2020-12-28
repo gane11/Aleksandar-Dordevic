@@ -886,14 +886,15 @@
 
 /* Feature Icons */
 
-	ul.feature-icons__alex {
+	.feature-icons__alex {
 		list-style: none;
 		padding-left: 0;
-
-		li {
+		ul {
+			li {
 			list-style:none;
 			width: 20rem;
 			height: 20rem;
+			}
 		}
 	}
 
