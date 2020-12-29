@@ -890,9 +890,9 @@
 	div.feature-icons {
 		list-style: none;
 		padding-left: 10rem;
-	}
+	
 
-		div.feature-icons i {
+		i {
 			text-decoration: none;
 			display: inline-block;
 			margin: 0 0 1.6875em 0;
@@ -900,6 +900,9 @@
 			position: relative;
 			vertical-align: top;
 			width: 48%;
+		}
+
+	
 		}
 
 			div.feature-icons i:before {
