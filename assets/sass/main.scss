@@ -904,28 +904,16 @@
 		}
 
 			ul.feature-icons li:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				display: inline-block;
-				font-style: normal;
-				font-variant: normal;
-				text-rendering: auto;
-				line-height: 1;
-				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
-				font-weight: 400;
 				height: 10rem;
 				width: 10rem;
 			}
 
 			ul.feature-icons li:before {
-				border-radius: 100%;
 				display: block;
 				height: 10rem;
 				left: 0;
 				line-height: 2.5em;
 				position: absolute;
-				text-align: center;
 				top: 0;
 				width: 10rem;
 			}
