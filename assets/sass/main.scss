@@ -1813,7 +1813,11 @@
 
 //skills
 .skills__container {
-	
+	display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-auto-rows: 1.6em;
+    grid-gap: 10px;
+
 	i {
 		height: 6rem;
 		width: 6rem;
