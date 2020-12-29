@@ -884,19 +884,70 @@
 		}
 	}
 
+
 /* Feature Icons */
 
-	.feature-icons__alex {
+	div.feature-icons {
 		list-style: none;
 		padding-left: 0;
-		ul {
-			li {
-			list-style:none;
-			width: 20rem;
-			height: 20rem;
-			}
-		}
 	}
+
+		div.feature-icons i {
+			text-decoration: none;
+			display: inline-block;
+			margin: 0 0 1.6875em 0;
+			padding: 0.35em 0 0 3.5em;
+			position: relative;
+			vertical-align: top;
+			width: 48%;
+		}
+
+			div.feature-icons i:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+				text-transform: none !important;
+				font-family: 'Font Awesome 5 Free';
+				font-weight: 400;
+			}
+
+			div.feature-icons i:before {
+				border-radius: 100%;
+				color: #ffffff;
+				display: block;
+				height: 5rem;
+				left: 0;
+				line-height: 2.5em;
+				position: absolute;
+				text-align: center;
+				top: 0;
+				width: 5rem;
+			}
+
+	/* Icons */
+
+	div.icon-skill {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+	}
+
+		ul.icons li {
+			display: inline-block;
+			padding: 0 1em 0 0;
+		}
+
+			ul.icons li:last-child {
+				padding-right: 0 !important;
+			}
+
+			ul.icons li .icon:before {
+				font-size: 1.25em;
+			}
 
 /* Icons */
 
@@ -904,22 +955,20 @@
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+	}
 
-		li {
+		ul.icons li {
 			display: inline-block;
 			padding: 0 1em 0 0;
+		}
 
-			&:last-child {
+			ul.icons li:last-child {
 				padding-right: 0 !important;
 			}
 
-			.icon {
-				&:before {
-					font-size: 1.25em;
-				}
+			ul.icons li .icon:before {
+				font-size: 1.25em;
 			}
-		}
-	}
 
 /* Table */
 
@@ -1810,14 +1859,3 @@
 			}
 
 	}
-
-//skills
-#grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-}
-.grid-item {
-  padding: 20px;
-  text-align: center;
-}
