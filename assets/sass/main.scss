@@ -899,23 +899,23 @@
 			// padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-			width: 10rem;
-			height: 10rem;
+			width: 10rem !important;
+			height: 10rem !important;
 		}
 
 			ul.feature-icons li:before {
-				height: 10rem;
-				width: 10rem;
+				height: 10rem !important;
+				width: 10rem !important;
 			}
 
 			ul.feature-icons li:before {
 				display: block;
-				height: 10rem;
+				height: 10rem !important;
 				left: 0;
 				line-height: 2.5em;
 				position: absolute;
 				top: 0;
-				width: 10rem;
+				width: 10rem !important;
 			}
 
 /* Icons */
