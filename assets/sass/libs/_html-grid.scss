@@ -2,7 +2,7 @@
 
 // Mixins.
 
-	/// Initializes the current element as an HTML grid.
+	/// Initializes the current element as an HTML grid.a
 	/// @param {mixed} $gutters Gutters (either a single number to set both column/row gutters, or a list to set them individually).
 	/// @param {mixed} $suffix Column class suffix (optional; either a single suffix or a list).
 	@mixin html-grid($gutters: 1.5em, $suffix: '') {
