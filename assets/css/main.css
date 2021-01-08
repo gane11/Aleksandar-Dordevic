@@ -2386,6 +2386,7 @@ input, select, textarea {
 			position: relative;
 			vertical-align: top;
 			width: 30%;
+			font-size: 4rem;
 		}
 
 			ul.feature-icons li:before {
