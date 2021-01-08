@@ -2385,8 +2385,8 @@ input, select, textarea {
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-			width: 30%;
-			font-size: 4rem;
+			/* width: 30%; */
+			font-size: 4.5rem;
 		}
 
 			ul.feature-icons li:before {
