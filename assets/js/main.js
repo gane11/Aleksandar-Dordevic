@@ -54,7 +54,7 @@
 
 			}
 
-	// Header Panel.
+	// Header Panel - important.
 
 		// Nav.
 			var $nav_a = $nav.find('a');
