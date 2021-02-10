@@ -13,7 +13,7 @@
 		$nav = $('#nav'),
 		$wrapper = $('#wrapper');
 
-	// Breakpoints.
+	// Breakpoints - important.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
 			large:    [ '1025px',  '1280px' ],
