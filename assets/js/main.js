@@ -121,7 +121,7 @@
 
 				});
 
-		// Title Bar.
+		// Title Bar- important.
 			$titleBar = $(
 				'<div id="titleBar">' +
 					'<a href="#header" class="toggle"></a>' +
