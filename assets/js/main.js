@@ -143,7 +143,7 @@
 					visibleClass: 'header-visible'
 				});
 
-	// Scrolly.
+	// Scrolly -not using thjis part.
 		$('.scrolly').scrolly({
 			speed: 1000,
 			offset: function() {
