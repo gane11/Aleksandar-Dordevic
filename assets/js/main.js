@@ -143,7 +143,7 @@
 					visibleClass: 'header-visible'
 				});
 
-	// Scrolly.
+	// Scrolly//.
 		$('.scrolly').scrolly({
 			speed: 1000,
 			offset: function() {
