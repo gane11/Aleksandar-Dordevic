@@ -101,7 +101,6 @@
 							},
 							enter: function() {
 
-								// Activate section.
 									$section.removeClass('inactive');
 
 								// No locked links? Deactivate all links and activate this section's one.
