@@ -103,7 +103,6 @@
 
 									$section.removeClass('inactive');
 
-								// No locked links? Deactivate all links and activate this section's one.
 									if ($nav_a.filter('.active-locked').length == 0) {
 
 										$nav_a.removeClass('active');
