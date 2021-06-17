@@ -127,7 +127,7 @@
 			)
 				.appendTo($body);
 
-		// Panel.
+
 			$header
 				.panel({
 					delay: 500,
