@@ -118,7 +118,6 @@
 
 				});
 
-		// Title Bar- important.
 			$titleBar = $(
 				'<div id="titleBar">' +
 					'<a href="#header" class="toggle"></a>' +
@@ -140,7 +139,6 @@
 					visibleClass: 'header-visible'
 				});
 
-	// Scrolly//.
 		$('.scrolly').scrolly({
 			speed: 1000,
 			offset: function() {
